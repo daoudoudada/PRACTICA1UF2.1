@@ -27,10 +27,13 @@
             </div>
  </div>
  <div class="adivinar">
-    <h2>escribe aqui un numero:</h2>
-    <input type="number" id="numberInput" placeholder="Enter a number">
-    <button onclick="checkNumber()">Comprobar</button>
+    <h2>Escribe aqui un numero:</h2>
+    <input type="text" id="numeroInput" maxlength="5" placeholder="01234">
+    <button onclick="verificarNumero()"><strong>Comprobar</strong></button>
 </div>
-
+<div class="mensaje">
+<p  id="mensaje"></p>
+</div>
+<div id="pistas"></div>
 </body>
 </html>
