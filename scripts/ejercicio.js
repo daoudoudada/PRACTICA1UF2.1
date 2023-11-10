@@ -7,7 +7,7 @@ const numeroAleatorioArray = numeroAleatorio.toString().split('');
 // Inicialización de variables
 let intentos = 1;
 let juegoGanado = false;
-const maxIteracion = 3; // Número máximo de iteraciones
+const maxIteracion = 5; // Número máximo de iteraciones
 let iteracion = 0;
 
 // Función para generar un número aleatorio de 5 dígitos
