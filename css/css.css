@@ -105,7 +105,10 @@ button:hover {
     border-radius: 5px;
     padding-top: 20px;
   }
-
+  .griss {
+    background-color: rgb(148, 143, 143);
+    color: white;
+  }
   .verde {
     background-color: green;
     color: white;
