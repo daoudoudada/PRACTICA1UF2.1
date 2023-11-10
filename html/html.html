@@ -6,34 +6,27 @@
     <link rel="stylesheet" href="../css/css.css">
     <script src="../scripts/ejercicio.js"></script>
 
+
 </head>
 <body>
 <h1>Adivina el número secreto</h1>
 <div class="celdas">
-    <div class="celda">
-        <p>*</p>
-       </div>
-       <div class="celda">
-        <p>*</p>
-               </div>
-               <div class="celda">
-                <p>*</p>
-            </div>
-            <div class="celda">
-                <p>*</p>
-            </div>
-            <div class="celda">
-                <p>*</p>
-            </div>
+    <div class="celda" id="azul1">*</div>
+    <div class="celda" id="azul2">*</div>
+    <div class="celda" id="azul3">*</div>
+    <div class="celda" id="azul4">*</div>
+    <div class="celda" id="azul5">*</div>
  </div>
+ <br><br>
  <div class="adivinar">
     <h2>Escribe aqui un numero:</h2>
     <input type="text" id="numeroInput" maxlength="5" placeholder="01234">
     <button onclick="verificarNumero()"><strong>Comprobar</strong></button>
 </div>
-<div class="mensaje">
-<p  id="mensaje"></p>
-</div>
-<div id="pistas"></div>
+  <div id="mensaje" class="mensaje"></div>
+  <div class="intentos" id="pistas"></div>
+
+
 </body>
 </html>
+
